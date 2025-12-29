@@ -1,0 +1,23 @@
+{
+  "name": "qa-lab-group-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GET4SIZE/QA-lab-group-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/GET4SIZE/QA-lab-group-2/issues"
+  },
+  "homepage": "https://github.com/GET4SIZE/QA-lab-group-2#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3"
+  }
+}
