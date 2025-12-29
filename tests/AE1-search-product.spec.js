@@ -10,7 +10,7 @@ test('AE1 TC-02: product search finds "Dark Grey Jeans"', async ({ page }) => {
     await acceptCookies.click();
   }
 
-  // 3. Знайти поле PRODUCT SEARCH (це input type="text")
+  // 3. Знайти поле PRODUCT SEARCH
   const searchInput = page.locator(
     'input[name="ec_search"], input[placeholder*="Search" i]'
   ).first();

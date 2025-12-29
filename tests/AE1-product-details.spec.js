@@ -13,7 +13,7 @@ test('AE1 TC-03: product details page shows title, price, qty and add-to-cart', 
   const title = page.getByRole('heading', { name: /dark grey jeans/i }).first();
   await expect(title).toBeVisible();
 
-  // ✅ price (беремо тільки ВИДИМИЙ блок)
+  // price 
   const price = page.locator('div.ec_details_price.ec_details_single_price:visible');
   await expect(price).toBeVisible();
   await expect(price).toContainText(/\$\s*\d+/);
